@@ -119,7 +119,7 @@ class RotationController:
 
 if __name__ == "__main__":
     print("那维莱特旋转控制脚本")
-    print(f"热键配置：[{toggle_hotkey.upper()}]切换  [{exit_hotkey.upper()}]退出")
+    print(f"热键配置：[{toggle_hotkey.upper()}]启用/禁用  [{exit_hotkey.upper()}]退出")
 
     # 请求管理员权限
     if ctypes.windll.shell32.IsUserAnAdmin() == 0:
